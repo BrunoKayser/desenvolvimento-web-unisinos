@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+   /* background-image: url(../images/bg.jpg); ESPERANDO TER A IMAGEM */
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 20px 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px ;
+}
+
+.pages-header {
+    display: flex;
+    margin: 0px 10px 10px 10px;
+}
+
+.pages-header-text {
+    margin: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.pages-header-text:hover {
+    background-color: green;
+    cursor: pointer;
+}
